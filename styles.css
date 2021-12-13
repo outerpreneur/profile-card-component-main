@@ -1,0 +1,75 @@
+:root {
+    --main-background: hsl(185, 75%, 39%);
+}
+
+body {
+    background-color: var(--main-background);
+    background-image: url("images/bg-pattern-bottom.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 99;
+}
+
+.upper-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.avatar {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    border: white solid 3px;
+}
+
+.middle-card {
+    text-align: center;
+    height: 70%;
+}
+
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+.facts span:first-line {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.facts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 20px;
+    border-top: solid 1px hsl(0, 0%, 0%, 0.1);
+    color: gray;
+}
+
+.first-line {
+    display: flex;
+}
+
+.card-image {
+    border-radius: 10px 10px 0 0;
+}
