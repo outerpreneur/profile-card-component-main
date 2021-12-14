@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 
 .avatar {
@@ -32,11 +33,14 @@ body {
     position: absolute;
     border-radius: 50%;
     border: white solid 3px;
+    bottom: -48px;
+
 }
 
 .middle-card {
     text-align: center;
     height: 70%;
+    padding-top: 50px;
 }
 
 h1 {
