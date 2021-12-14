@@ -4,13 +4,23 @@
 
 body {
     background-color: var(--main-background);
-    background-image: url("images/bg-pattern-bottom.svg");
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     position: relative;
+}
+
+.top-circle {
+    position: absolute;
+    height: 150px;
+    width: auto;
+    transform: translateY(-20%);
+}
+
+.bottom-circle {
+    position: absolute;
 }
 
 .card {
@@ -52,6 +62,7 @@ h1 {
 p {
     text-align: center;
     color: gray;
+    transform: translateY(-70%);
 }
 
 .facts span:first-line {
